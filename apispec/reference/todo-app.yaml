@@ -54,13 +54,13 @@ paths:
               type: object
               properties:
                 id:
-                  type: string
+                  type: number
                 name:
                   type: string
                 description:
                   type: string
                 status_id:
-                  type: string
+                  type: number
               required:
                 - id
                 - name

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "generate-api": "openapi-generator-cli generate -i ../apispec/reference/todo-app.yaml -g typescript-fetch -o api -c openapi-generator.json"
+  },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.5.1"
   }
